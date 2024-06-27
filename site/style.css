@@ -11,7 +11,7 @@ h1 {
 }
 
 .section {
-    border: 1px white;
+    border: 10px white;
     box-sizing: border-box;
     padding: 15px;
     background-color: #DEDAF4;
@@ -23,7 +23,7 @@ h1 {
     top: 15px;
     right: 15px;
     padding: 5px 10px;
-    border: 1px white ;
+    border: 10px white ;
     background-color: #E4F1EE;
 }
 
