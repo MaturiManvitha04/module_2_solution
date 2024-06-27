@@ -1,5 +1,5 @@
 body {
-    font-family:"Lucida Console", "Courier New", monospace;;
+    font-family:"Lucida Console", "Courier New", cursive;;
     margin: 10;
 }
 
@@ -24,7 +24,7 @@ h1 {
     right: 15px;
     padding: 5px 10px;
     border: 10px white ;
-    background-color: #E4F1EE;
+    background-color: #a0f2df;
 }
 
 .section p {
