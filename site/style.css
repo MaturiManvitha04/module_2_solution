@@ -2,14 +2,12 @@ body {
     font-family:"Lucida Console", "Courier New", "cursive";;
     margin: 10;
 }
-
 h1 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #FFADAD;
 }
-
 .section {
     border: 5px solid #d08998; 
     box-sizing: border-box;
@@ -17,7 +15,6 @@ h1 {
     background-color: #DEDAF4;
     position: relative;
 }
-
 .title-region {
     position: absolute;
     top: 15px;
@@ -26,11 +23,9 @@ h1 {
     border: 10px white ;
     background-color: #a0f2df;
 }
-
 .section p {
     margin: 15px 0;
 }
-
 /* Media queries here */
 @media (min-width: 992px) {
    .section {
@@ -42,7 +37,6 @@ h1 {
         margin-right: 0;
     }
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
    .section {
         width: 50%;
@@ -56,7 +50,6 @@ h1 {
         width: 100%;
     }
 }
-
 @media (max-width: 767px) {
    .section {
         width: 100%;
