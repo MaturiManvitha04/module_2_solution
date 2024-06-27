@@ -11,7 +11,7 @@ h1 {
 }
 
 .section {
-    border: 10px white;
+    border: 5px solid #C9E4CA; /* added pastel blue border */
     box-sizing: border-box;
     padding: 15px;
     background-color: #DEDAF4;
