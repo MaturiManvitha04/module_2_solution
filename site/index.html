@@ -1,24 +1,56 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jewellery</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>My Personal Website</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>Jewels</h1>
-    <div class="section" id="Rings">
-        <div class="title-region">Rings</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="section" id="Chains">
-        <div class="title-region">Chains</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div class="section" id="Earrings">
-        <div class="title-region">Earrings</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+	<header>
+		<h1>My Name</h1>
+		<img src="image.png" alt="My Photo">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>Insert information about yourself here.</p>
+		</section>
+		<section id="skills">
+			<h2>Skills</h2>
+			<ul>
+				<li>Skill 1</li>
+				<li>Skill 2</li>
+				<li>Skill 3</li>
+			</ul>
+		</section>
+		<section id="portfolio">
+			<h2>Portfolio</h2>
+			<p>Insert information about your portfolio here.</p>
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+			<form id="contact-form">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required><br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea><br>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>Copyright © 2023 My Name</p>
+	</footer>
+	<script src="script.js"></script>
 </body>
 </html>
